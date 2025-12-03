@@ -1,10 +1,18 @@
 # 🛡️ Mission Blackout v3 — Package Complet
 
+## 🌐 Accès en ligne
+
+**Application en ligne** : [https://ggaillard.github.io/Mission_DevSecOPS_Blackout/](https://ggaillard.github.io/Mission_DevSecOPS_Blackout/)
+
+L'application est déployée sur GitHub Pages et accessible directement depuis votre navigateur.
+
+---
+
 ## 📦 Contenu du package
 
 ```
 Mission_Blackout/
-├── mission_blackout_v3.html      # Application principale
+├── index.html                    # Application principale (déployée sur GitHub Pages)
 ├── mission_blackout_qcm.xml      # QCM 20 questions (Pronote/Moodle)
 ├── README.md                      # Ce fichier
 │
@@ -31,6 +39,18 @@ Mission_Blackout/
 
 ## 🚀 Installation rapide (10 min)
 
+### Option 1 : Utiliser l'application en ligne (recommandé)
+
+1. Accéder à : [https://ggaillard.github.io/Mission_DevSecOPS_Blackout/](https://ggaillard.github.io/Mission_DevSecOPS_Blackout/)
+2. Passer directement à l'**Étape 1** ci-dessous pour configurer Google Drive
+
+### Option 2 : Installation locale
+
+1. Télécharger le fichier `index.html` depuis ce dépôt
+2. Ouvrir le fichier dans un navigateur web
+
+---
+
 ### Étape 1 : Créer le dossier Google Drive
 
 1. Aller sur [Google Drive](https://drive.google.com)
@@ -41,7 +61,7 @@ Mission_Blackout/
 
 ### Étape 2 : Configurer l'application
 
-1. Ouvrir `mission_blackout_v3.html` avec un éditeur de texte
+1. Ouvrir `index.html` avec un éditeur de texte (ou éditer directement sur GitHub)
 2. Trouver la ligne (vers le début) :
 ```javascript
 const DRIVE_BASE_URL = "https://drive.google.com/drive/folders/VOTRE_ID_DOSSIER";
@@ -56,7 +76,7 @@ https://drive.google.com/drive/folders/1ABC123xyz789...
 
 ### Étape 3 : Tester
 
-Ouvrir `mission_blackout_v3.html` dans un navigateur et vérifier que les liens vers les ressources fonctionnent.
+Ouvrir l'application (en ligne ou localement) et vérifier que les liens vers les ressources fonctionnent.
 
 ---
 
