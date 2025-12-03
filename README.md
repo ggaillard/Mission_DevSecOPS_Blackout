@@ -59,9 +59,9 @@ Mission_Blackout/
 
 ---
 
-## 💪 Valorisation du rôle du développeur
+## 💪 Rôle du développeur
 
-L'application met en avant le rôle **positif et essentiel** du développeur :
+L'application évoque le rôle ** essentiel** du développeur :
 
 | Écran | Message clé |
 |-------|-------------|
@@ -86,17 +86,7 @@ L'application met en avant le rôle **positif et essentiel** du développeur :
 | 5 | Q17-Q19 | DevSecOps & Pipeline | 06 |
 | 6 | Q20 | Réponse à incident (CNIL) | 07 |
 
-### Import dans Pronote
 
-1. Aller dans **Ressources pédagogiques → QCM**
-2. **Importer → Fichier XML**
-3. Sélectionner `mission_blackout_qcm.xml`
-
-### Import dans Moodle
-
-1. Aller dans **Banque de questions**
-2. **Importer → Format XML Moodle**
-3. Sélectionner le fichier (peut nécessiter une conversion)
 
 ---
 
@@ -146,42 +136,6 @@ L'application met en avant le rôle **positif et essentiel** du développeur :
 
 ---
 
-## 🔧 Personnalisation
-
-### Modifier le scénario
-
-Dans le fichier HTML, section `SCENARIO` :
-```javascript
-const SCENARIO = {
-    company: { name: "VotreEntreprise", employees: 500 },
-    attack: { ransom: "300 000€", deadline: 48 }
-};
-```
-
-### Ajouter des questions au QCM
-
-Éditer `mission_blackout_qcm.xml` et ajouter une structure :
-```xml
-<question id="21" type="single" points="1">
-    <text>Votre question ici</text>
-    <answers>
-        <answer correct="false">Réponse A</answer>
-        <answer correct="true">Bonne réponse</answer>
-        <answer correct="false">Réponse C</answer>
-    </answers>
-    <feedback>Explication</feedback>
-</question>
-```
-
-### Modifier les couleurs
-
-Dans le CSS de l'application :
-```css
-:root {
-    --accent-red: #ff4757;
-    --accent-green: #2ed573;
-    --accent-blue: #5352ed;
-}
 ```
 
 
@@ -205,5 +159,5 @@ Ce matériel pédagogique est destiné à un usage éducatif dans le cadre du BT
 
 ---
 
-*Mission Blackout v3 — BTS SIO SLAM — Cybersécurité*
-*Créé avec ❤️ pour l'enseignement de la cybersécurité*
+*Mission Blackout v3 — BTS SIO SLAM *
+
