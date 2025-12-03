@@ -16,15 +16,7 @@ Mission_Blackout/
 ├── mission_blackout_qcm.xml      # QCM 20 questions (Pronote/Moodle)
 ├── README.md                      # Ce fichier
 │
-├── fiches_docx/                   # Fiches pour Google Drive (.docx)
-│   ├── 01_injection_sql.docx
-│   ├── 02_hash_passwords.docx
-│   ├── 03_gestion_secrets.docx
-│   ├── 04_ransomware.docx
-│   ├── 05_segmentation_reseau.docx
-│   ├── 06_devsecops.docx
-│   └── 07_reponse_incident.docx
-│
+
 └── resources/                     # Fiches en Markdown (référence)
     ├── 01_injection_sql.md
     ├── 02_hash_passwords.md
@@ -39,44 +31,10 @@ Mission_Blackout/
 
 ## 🚀 Installation rapide (10 min)
 
-### Option 1 : Utiliser l'application en ligne (recommandé)
+###  Utiliser l'application en ligne (recommandé)
 
 1. Accéder à : [https://ggaillard.github.io/Mission_DevSecOPS_Blackout/](https://ggaillard.github.io/Mission_DevSecOPS_Blackout/)
-2. Passer directement à l'**Étape 1** ci-dessous pour configurer Google Drive
 
-### Option 2 : Installation locale
-
-1. Télécharger le fichier `index.html` depuis ce dépôt
-2. Ouvrir le fichier dans un navigateur web
-
----
-
-### Étape 1 : Créer le dossier Google Drive
-
-1. Aller sur [Google Drive](https://drive.google.com)
-2. Créer un dossier : `Mission_Blackout_Ressources`
-3. Uploader les 7 fichiers `.docx` du dossier `fiches_docx/`
-4. Pour chaque fichier : **Clic droit → Ouvrir avec → Google Docs**
-5. Configurer le partage du dossier : **"Tous les utilisateurs disposant du lien" → Lecteur**
-
-### Étape 2 : Configurer l'application
-
-1. Ouvrir `index.html` avec un éditeur de texte (ou éditer directement sur GitHub)
-2. Trouver la ligne (vers le début) :
-```javascript
-const DRIVE_BASE_URL = "https://drive.google.com/drive/folders/VOTRE_ID_DOSSIER";
-```
-3. Remplacer `VOTRE_ID_DOSSIER` par l'ID de votre dossier Google Drive
-
-**Pour trouver l'ID** : L'URL de votre dossier ressemble à :
-```
-https://drive.google.com/drive/folders/1ABC123xyz789...
-                                        └─── Cet ID ───┘
-```
-
-### Étape 3 : Tester
-
-Ouvrir l'application (en ligne ou localement) et vérifier que les liens vers les ressources fonctionnent.
 
 ---
 
