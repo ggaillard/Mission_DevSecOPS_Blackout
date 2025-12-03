@@ -287,9 +287,8 @@
         const { useState, useEffect } = React;
 
         // ==================== CONFIGURATION ====================
-        // URL de base du dossier Google Drive partagé avec les ressources pédagogiques
-        // À PERSONNALISER selon votre structure de dossier
-        const DRIVE_BASE_URL = "https://drive.google.com/drive/folders/VOTRE_ID_DOSSIER";
+        // URL de base des ressources pédagogiques sur GitHub
+        const GITHUB_BASE_URL = "https://raw.githubusercontent.com/ggaillard/Mission_DevSecOPS_Blackout/main/resources";
         
         // Configuration des ressources pédagogiques externes
         const RESOURCES = {
@@ -298,43 +297,43 @@
                 title: "Injection SQL - Fiche concept",
                 icon: "📄",
                 description: "Comprendre et prévenir les injections SQL",
-                url: DRIVE_BASE_URL + "?file=01_injection_sql.pdf"
+                url: GITHUB_BASE_URL + "/01_injection_sql.md"
             },
             hash_passwords: {
                 title: "Hashage des mots de passe",
                 icon: "📄",
                 description: "Bcrypt, Argon2 et bonnes pratiques",
-                url: DRIVE_BASE_URL + "?file=02_hash_passwords.pdf"
+                url: GITHUB_BASE_URL + "/02_hash_passwords.md"
             },
             gestion_secrets: {
                 title: "Gestion des secrets",
                 icon: "📄",
                 description: "Variables d'environnement, Vault, bonnes pratiques",
-                url: DRIVE_BASE_URL + "?file=03_gestion_secrets.pdf"
+                url: GITHUB_BASE_URL + "/03_gestion_secrets.md"
             },
             ransomware: {
                 title: "Ransomware - Comprendre la menace",
                 icon: "📄",
                 description: "Fonctionnement, prévention, réaction",
-                url: DRIVE_BASE_URL + "?file=04_ransomware.pdf"
+                url: GITHUB_BASE_URL + "/04_ransomware.md"
             },
             segmentation_reseau: {
                 title: "Segmentation réseau",
                 icon: "📄",
                 description: "VLAN, Zero Trust, défense en profondeur",
-                url: DRIVE_BASE_URL + "?file=05_segmentation_reseau.pdf"
+                url: GITHUB_BASE_URL + "/05_segmentation_reseau.md"
             },
             devsecops: {
                 title: "DevSecOps - Pipeline sécurisé",
                 icon: "📄",
                 description: "SAST, DAST, scan de dépendances",
-                url: DRIVE_BASE_URL + "?file=06_devsecops.pdf"
+                url: GITHUB_BASE_URL + "/06_devsecops.md"
             },
             reponse_incident: {
                 title: "Réponse à incident",
                 icon: "📄",
                 description: "Procédures, communication, reconstruction",
-                url: DRIVE_BASE_URL + "?file=07_reponse_incident.pdf"
+                url: GITHUB_BASE_URL + "/07_reponse_incident.md"
             },
             // Ressources externes officielles
             anssi_guide: {
@@ -1168,7 +1167,7 @@ def login(username, password):
                         </div>
                         <div style={{ marginTop: '12px' }}>
                             <a 
-                                href={DRIVE_BASE_URL}
+                                href="https://github.com/ggaillard/Mission_DevSecOPS_Blackout/tree/main/resources"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="resource-link"
@@ -1177,7 +1176,7 @@ def login(username, password):
                                 <span className="icon">📁</span>
                                 <span className="label">
                                     <strong>Dossier complet des ressources</strong>
-                                    <div style={{ fontSize: '0.85rem', opacity: 0.8 }}>Toutes les fiches concepts sur Google Drive</div>
+                                    <div style={{ fontSize: '0.85rem', opacity: 0.8 }}>Toutes les fiches concepts sur GitHub</div>
                                 </span>
                                 <span className="arrow">→</span>
                             </a>
