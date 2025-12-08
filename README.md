@@ -6,158 +6,77 @@
 
 L'application est déployée sur GitHub Pages et accessible directement depuis votre navigateur.
 
----
+# Présentation de séance — BTS SIO : Bloc 1
 
-## 📦 Contenu du package
+**Objectif** : Fiche de séance pour une intervention pédagogique destinée aux étudiants du BTS SIO (Bloc 1). Cette séance présente des activités pratiques et des supports tirés du projet `Mission_DevSecOPS_Blackout`.
 
-```
-Mission_Blackout/
-├── index.html                    # Application principale (déployée sur GitHub Pages)
-├── mission_blackout_qcm.xml      # QCM 20 questions (Pronote/Moodle)
-├── README.md                      # Ce fichier
-│
+**Public** : Étudiants BTS SIO (SLAM / SISR) — classe entière ou demi-groupes.
 
-└── resources/                     # Fiches en Markdown (référence)
-    ├── 01_injection_sql.md
-    ├── 02_hash_passwords.md
-    ├── 03_gestion_secrets.md
-    ├── 04_ransomware.md
-    ├── 05_segmentation_reseau.md
-    ├── 06_devsecops.md
-    └── 07_reponse_incident.md
-```
+**Durée** : 1 séance de 1 heure (60 minutes).
+
+**Prérequis** : Connaissances de base en réseaux et programmation (niveau 1re année BTS).
 
 ---
 
-## 🚀 Installation rapide (10 min)
-
-###  Utiliser l'application en ligne (recommandé)
-
-1. Accéder à : [https://ggaillard.github.io/Mission_DevSecOPS_Blackout/](https://ggaillard.github.io/Mission_DevSecOPS_Blackout/)
-
-
----
-
-## 🎓 Déroulement pédagogique
-
-### Séance type (2h)
-
-| Durée | Phase | Activité |
-|-------|-------|----------|
-| **0-10 min** | Lancement | Briefing, distribution des accès |
-| **10-30 min** | Mission Blackout | Escape game en autonomie |
-| **30-45 min** | Débriefing | Discussion sur les choix, erreurs découvertes |
-| **45-75 min** | QCM | 20 questions avec ressources autorisées |
-| **75-90 min** | Correction | Correction interactive du QCM |
-| **90-120 min** | Approfondissement | Travail sur une fiche concept au choix |
-
-### Organisation des groupes
-
-- **Binômes recommandés** : Favorise la discussion et l'entraide
-- **Écran partagé** : Un avec l'application, l'autre avec les ressources
-- **Ressources autorisées** pendant le QCM : Encourage la recherche
+**Objectifs pédagogiques** :
+- **Comprendre** : Identifier les menaces informatiques courantes et leurs impacts.
+- **Analyser** : Diagnostiquer une situation de sécurité (vulnérabilités, logs, erreurs).
+- **Proposer** : Concevoir des mesures techniques et organisationnelles pour réduire les risques.
+- **Communiquer** : Rédiger un compte‑rendu et présenter des recommandations.
 
 ---
 
-## 💪 Rôle du développeur
-
-L'application évoque le rôle ** essentiel** du développeur :
-
-| Écran | Message clé |
-|-------|-------------|
-| **Alerte** | "Vos compétences sont essentielles : Investiguer, Sécuriser, Reconstruire, Innover" |
-| **Investigation** | "Vous savez lire du code et des logs, une compétence rare et précieuse" |
-| **Secure Coding** | "Un code bien sécurisé aurait empêché cette attaque" |
-| **Pipeline** | "Ce pipeline sera votre héritage, protégeant l'équipe à chaque commit" |
-| **Final** | "Le développeur : héros de la cybersécurité" |
+**Compétences visées (Bloc 1)** :
+- **Analyser une situation professionnelle** : repérer acteurs, besoins et contraintes.
+- **Formaliser les besoins** : extraire et expliciter les exigences fonctionnelles et non fonctionnelles.
+- **Proposer une solution technique adaptée** : choix de technologies, architecture, sécurisation.
+- **Justifier des choix** : argumenter en tenant compte des risques, coûts et contraintes pédagogiques.
+- **Produire des livrables professionnels** : schémas, compte‑rendu, procédures de sécurité.
 
 ---
 
-## 📝 QCM — 20 questions
+**Matériel et ressources** :
+- **Fichiers pédagogiques** : dossier `resources/` (fiches `01` à `07`).
+- **Accès web** : ouvrir `index.html` pour l'application Mission Blackout.
+- **Postes élèves** : navigateurs, accès réseau restreint recommandé.
 
-### Structure
+---
 
-| Partie | Questions | Thème | Fiche ressource |
-|--------|-----------|-------|-----------------|
-| 1 | Q1-Q5 | Ransomware et menaces | 04, 07 |
+**Déroulé de la séance (1h)** :
+- **0–5 min — Introduction** : objectifs, consignes et organisation des groupes (binômes).
+- **5–30 min — Activité principale** : mission interactive `Mission Blackout` (investigation et prise de décision).
+- **30–40 min — QCM / Vérification des acquis** : courte série de questions ou quiz.
+- **40–50 min — Correction et débrief** : correction commune et échanges sur bonnes pratiques.
+- **50–60 min — Synthèse et application** : rédaction d’un court livrable (compte‑rendu ou checklist sécurité).
+
+---
+
+**Exemples d'activités / exercices** :
+- **Analyse d'une injection SQL** : repérer la vulnérabilité, proposer requête paramétrée.
+- **Choix d'algorithme de hash** : comparer `bcrypt`, `Argon2`, expliquer les critères.
+- **Plan de réponse à incident** : rédiger 5 actions prioritaires en cas de compromission.
+
+---
+
+**Critères d'évaluation** :
+- **Maîtrise conceptuelle** : compréhension des notions (ex. différences entre hash et chiffrement).
+- **Capacité d'analyse** : pertinence du diagnostic et des mesures proposées.
+- **Communication professionnelle** : clarté du compte‑rendu et justification des choix.
+- **Respect des consignes** : travail en temps imparti et usage des ressources autorisées.
+
+---
+
+**Liens et ressources** :
+- Dossier de fiches : `resources/` (`01_injection_sql.md`, `02_hash_passwords.md`, ...)
+- Guides officiels : ANSSI, CNIL (liens externes à insérer selon besoin).
+
+---
+
+**Annexes** :
+- Proposition de feuille élève (à distribuer) : objectifs, consignes, tâches et durée par étape.
+
+---
+
+Fichier modifié : `README.md` — Fiche de séance pour le Bloc 1 (BTS SIO).
 | 2 | Q6-Q9 | Gestion des secrets | 03, 06 |
-| 3 | Q10-Q13 | Injection SQL & Secure Coding | 01, 02 |
-| 4 | Q14-Q16 | Segmentation réseau | 04, 05 |
-| 5 | Q17-Q19 | DevSecOps & Pipeline | 06 |
-| 6 | Q20 | Réponse à incident (CNIL) | 07 |
-
-
-
----
-
-## 📚 Contenu des fiches
-
-### Fiche 01 — Injection SQL
-- Définition et analogie simple
-- Code vulnérable vs sécurisé
-- Requêtes paramétrées, ORM
-- Statistiques OWASP
-
-### Fiche 02 — Hashage des mots de passe
-- Pourquoi ne pas stocker en clair
-- SHA-256 vs bcrypt vs Argon2
-- Implémentation Python
-- Erreurs courantes
-
-### Fiche 03 — Gestion des secrets
-- Définition des secrets
-- Variables d'environnement (.env)
-- HashiCorp Vault
-- Détection avec GitLeaks
-
-### Fiche 04 — Ransomware
-- Fonctionnement d'une attaque
-- Statistiques 2024
-- Règle de sauvegarde 3-2-1-1
-- Que faire en cas d'attaque
-
-### Fiche 05 — Segmentation réseau
-- Réseau plat vs segmenté
-- VLANs et zones de confiance
-- Zero Trust (3 piliers)
-- Impact sur la sécurité
-
-### Fiche 06 — DevSecOps
-- Pipeline CI/CD sécurisé
-- SAST vs DAST
-- Scan des dépendances
-- Exemple GitHub Actions
-
-### Fiche 07 — Réponse à incident
-- Cycle NIST (5 phases)
-- Équipe CSIRT
-- Erreurs à éviter
-- Obligations CNIL (72h)
-
----
-
-```
-
-
-## 📞 Ressources complémentaires
-
-### Pour les enseignants
-- [ANSSI - Formations](https://www.ssi.gouv.fr/formation/)
-- [CNIL - Ateliers RGPD](https://www.cnil.fr/fr/ateliers-rgpd)
-- [Cybermalveillance.gouv.fr](https://www.cybermalveillance.gouv.fr/)
-
-### Pour les étudiants
-- [Root-Me](https://www.root-me.org/) — Challenges pratiques
-- [TryHackMe](https://tryhackme.com/) — Parcours guidés
-- [OWASP WebGoat](https://owasp.org/www-project-webgoat/) — Apprentissage
-
----
-
-## 📄 Licence
-
-Ce matériel pédagogique est destiné à un usage éducatif dans le cadre du BTS SIO.
-
----
-
-*Mission Blackout v3 — BTS SIO SLAM *
 
